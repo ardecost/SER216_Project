@@ -6,13 +6,15 @@ ________________________________________________________________________________
 Exception upon startup:  
 java.io.FileNotFoundException: mathgraphics.properties (The system cannot find the file specified)
 
-"Displayed" is mis-spelled on GUI
+"Displayed" is mis-spelled on GUI (Only when Polar 2D is selected, "Diplayed range:")
 
-"Theta" is mis-spelled on GUI
+"Theta" is mis-spelled on GUI (Only when Polar 2D is selected, "r(teta)")
 
 Arrow L,R not working as well as up/down. When you press L or R, it doesn't move very far at all, it seems too sensitive; U or D moves further.  I wonder if this is just the window sizing.  (may not cause any problems)
-  
+// Arrowing any direction seems normal to me, speed is consistent.
+
 Mouse wheel up/down is reversed (this may not be a problem, perhaps preference).  
+// Appears to be opposite from typical scrolling behavior as in web browsing, pdfs, etc.
 
 Coordinates missing from 3D view, they show for both 2D graphs.  
 
